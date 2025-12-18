@@ -1,0 +1,37 @@
+.structured-sitemap-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.structured-sitemap-sortable {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.structured-sitemap-item {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    cursor: move;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.structured-sitemap-item:hover {
+    border-color: #2271b1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.structured-sitemap-placeholder {
+    border: 2px dashed #c3c4c7;
+    background: #f6f7f7;
+    min-height: 42px;
+}
+
+.structured-sitemap-admin h2 {
+    margin-top: 0;
+}

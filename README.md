@@ -6,6 +6,7 @@ Bu depo, WordPress için basit ve düzenlenebilir bir site haritası eklentisi i
 
 - Sayfalar ve blog yazıları ayrı başlıklar altında listelenir.
 - Sıralama tercihleriniz (menü sırası, başlık veya tarih) yönetici panelinde ayarlanabilir.
+- Blog yazılarını seçtiğiniz kategoriler altında sürükle-bırak ile sıralayabilir, her kategori için kendi başlığınızı yazabilirsiniz.
 - `[ordered_sitemap]` kısa kodu ile herhangi bir sayfaya yerleştirilebilir.
 - Kısa kod parametreleriyle sayfa ve yazı sıralamaları gerektiğinde değiştirilebilir:
   - `page_order="title_asc"` veya `menu_asc`, `title_desc`, `date_asc`, `date_desc`
@@ -15,5 +16,5 @@ Bu depo, WordPress için basit ve düzenlenebilir bir site haritası eklentisi i
 
 1. `ordered-sitemap` klasörünü WordPress kurulumunuzdaki `wp-content/plugins/` dizinine kopyalayın.
 2. WordPress yönetici panelinden **Eklentiler** bölümüne gidip **Ordered Sitemap** eklentisini etkinleştirin.
-3. **Ayarlar → Ordered Sitemap** sayfasına giderek sıralama tercihlerinizi seçin.
+3. **Ayarlar → Ordered Sitemap** sayfasında sıralama tercihlerini seçin, kategori başlıklarını ekleyin ve sürükle-bırak ile sıralayın.
 4. Site haritasını göstermek istediğiniz sayfaya `[ordered_sitemap]` kısa kodunu ekleyin.
